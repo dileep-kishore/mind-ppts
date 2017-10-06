@@ -1,25 +1,12 @@
 <template lang='pug'>
 .frontpage
   .content
-    h1
-      span.logo
-      span Eagle
-      span.grey .js
-    h2 A slideshow framework for hackers
-
-
-    iframe.github-star(src="https://ghbtns.com/github-btn.html?user=zulko&repo=eagle.js&type=star&count=true&size=large"
-                       frameborder="0" scrolling="0" width="160px" height="30px")
-    p.
-      Eagle.js is a web-based slideshow framework for Vue.js.
-      It supports animations, themes, interactive widgets (for web demos),
-      and makes it easy to reuse components, slides and styles across presentations.
-
-    p.
-      Most of all, Eagle aims at offering a simple and very hackable API so you
-      can get off the beaten tracks and craft the slideshows you really want.
-
-
+    h1 Microbiome Interaction Database
+    .eagle-intro
+      h3
+        span.logo
+        span Eagle
+        span.grey .js
 
     .thumbnails
       .box-card(v-for='slideshow in slideshows')
@@ -31,6 +18,7 @@
         .caption
           h3 {{slideshow.infos.title}}
           p.thumbnail-description {{slideshow.infos.description}}
+          p.thubnail-description {{slideshow.infos.date}}
 </template>
 
 <script>
@@ -57,10 +45,24 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang='scss' scoped>
 @import "node_modules/eagle.js/src/themes/frontpage/frontpage";
+
+.frontpage {
+  height: 100%;
+}
+
+.eagle-intro {
+  text-align: center;
+  h4 {
+    margin-top: -30px;
+    color: gray;
+  }
+  margin-bottom: 100px;
+}
+
 .logo {
   display: inline-block;
-  width: 130px;
-  height:90px;
+  width: 90px;
+  height: 45px;
   margin-right: 0.1em;
   background-image: url(./logo.svg);
   background-size: contain;
@@ -68,9 +70,10 @@ export default {
   background-repeat: no-repeat;
 }
 
-.github-star {
-  display: block;
-  margin: 0 auto;
-  margin-top: -10px;
+.box-card {
+  display: flex;
+  border: 2px dashed lightgray;
+  padding: 10px;
 }
+
 </style>

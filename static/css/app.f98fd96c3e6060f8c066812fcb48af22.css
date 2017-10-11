@@ -523,15 +523,58 @@ p[data-v-364fa3f5] {
 .fig-slide[data-v-2d61b877] {
   stroke: black;
 }
+#btn[data-v-2d61b877] {
+  margin: auto;
+}
 .quarter svg[data-v-2d61b877] {
   border: 1px dashed lightgray;
 }
 .fig[data-v-2d61b877] {
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+  -ms-flex-line-pack: center;
+      align-content: center;
   margin: auto;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+}
+.fig svg[data-v-2d61b877] {
+    padding: 20px;
+    margin: auto;
+}
+.fig-overlap[data-v-2d61b877] {
+  display: -ms-grid;
+  display: grid;
+  margin: auto;
+}
+.fig-overlap svg[data-v-2d61b877] {
+    margin: auto;
+}
+.corr-head[data-v-2d61b877] {
+  margin-bottom: 0;
+}
+.fig-corr-grid[data-v-2d61b877] {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+.fig-corr[data-v-2d61b877] {
+  position: relative;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: auto;
+}
+.fig-corr svg[data-v-2d61b877] {
+    margin: auto;
+    border: 3px dashed gray;
+    border-radius: 5px;
+}
+.fig-corr .fig-caption[data-v-2d61b877] {
+    position: absolute;
+    color: lightblue;
+    margin: -20% 28%;
 }
 .fig-caption[data-v-2d61b877] {
   display: -ms-flexbox;
@@ -561,4 +604,8 @@ p[data-v-364fa3f5] {
 .nodes circle[data-v-55afcaac] {
   stroke: black;
   stroke-width: 1.5px;
+}
+
+.node text[data-v-cf0c3a26] {
+  font: 10px sans-serif;
 }

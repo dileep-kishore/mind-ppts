@@ -45,9 +45,9 @@ export default {
     let dataLinks = this.dataUpdate[1]
     var d3network = d3.select(this.$el)
     var color = d3.scaleOrdinal(d3.schemeCategory20)
-    var radius = parseInt(this.size)
-    var width = parseInt(this.width)
-    var height = parseInt(this.height)
+    var radius = parseFloat(this.size)
+    var width = parseFloat(this.width)
+    var height = parseFloat(this.height)
     var simulation = d3.forceSimulation()
         .force('link', d3.forceLink().id(d => d.id))
         .force('charge', d3.forceManyBody().strength(this.strength))
@@ -71,24 +71,31 @@ export default {
           .on('drag', dragged)
           .on('end', dragended))
     node.append('title')
-      .text(d => d.name)
+      .attr('class', 'node-title')
+      .text(d => 'Genus: ' + d.name + '\nLineage: ' + d.lineage)
     simulation
       .nodes(dataNodes)
-      .on('tick', ticked)
     simulation.force('link')
       .links(dataLinks)
-    console.log(Math.max(this.size, Math.min(this.width - this.size, 10.23)))
+    simulation
+      .on('tick', ticked)
     function ticked () {
+      node
+        .attr('cx', d => {
+          d.x = Math.max(radius, Math.min(width - radius, d.x))
+          return d.x
+        })
+        .attr('cy', d => {
+          d.y = Math.max(radius, Math.min(height - radius, d.y))
+          return d.y
+        })
+        // .attr('cx', d => d.x)
+        // .attr('cy', d => d.y)
       link
         .attr('x1', d => d.source.x)
         .attr('y1', d => d.source.y)
         .attr('x2', d => d.target.x)
         .attr('y2', d => d.target.y)
-      node
-        .attr('cx', d => Math.max(radius, Math.min(width - radius, d.x)))
-        .attr('cy', d => Math.max(radius, Math.min(height - radius, d.y)))
-        // .attr('cx', d => d.x)
-        // .attr('cy', d => d.y)
     }
     function dragstarted (d) {
       if (!d3.event.active) simulation.alphaTarget(0.3).restart()
@@ -120,6 +127,7 @@ export default {
   max-width: 100%;
   width: 100%;
 }
+
   .links line {
     stroke: #999;
     stroke-opacity: 0.6;
@@ -127,8 +135,8 @@ export default {
 
   .nodes {
     circle {
-    stroke: black;
-    stroke-width: 1.5px;
+      stroke: black;
+      stroke-width: 1.5px;
     }
   }
 </style>

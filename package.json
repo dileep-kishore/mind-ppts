@@ -1,8 +1,8 @@
 {
-  "name": "eaglejs-example",
+  "name": "mind-eaglejs",
   "version": "0.1.0",
-  "description": "Example presentation with Eagle.js",
-  "author": "Zulko",
+  "description": "Presentations for the microbial interaction database",
+  "author": "Dileep Kishore",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

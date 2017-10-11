@@ -4,7 +4,6 @@
 
 <script>
 import * as d3 from 'd3'
-import { flatten, difference } from 'lodash'
 export default {
   props: {
     id: {default: () => Math.random().toString(36).substr(2, 10)},
@@ -22,63 +21,121 @@ export default {
     }
   },
   methods: {
-    calcLinks () {
-      const allLinks = flatten(Object.entries(this.data).map(([k, v], i) => {
-        return v.links.map(edge => ({'source': edge.source, 'target': edge.target, 'weight': edge.weight, color (x) { return '#ccc' }, width (x) { return 1 }}))
-      }))
-      console.log('alllinks', allLinks)
-      let uniqueLinkIds = {source: [], target: []}
-      let uniqueLinks = []
-      allLinks.forEach((el) => {
-        let s = el.source
-        let t = el.target
-        if (!(uniqueLinkIds.source.includes(s) && uniqueLinkIds.target.includes(t)) || !(uniqueLinkIds.source.includes(t) && uniqueLinkIds.target.includes(s))) {
-          uniqueLinkIds.source.push(s)
-          uniqueLinkIds.target.push(t)
-          uniqueLinks.push(el)
-        }
-      })
-      const commonLinks = difference(allLinks, uniqueLinks)
-        .map(el => (Object.assign({}, el, {color (x) { return (x < 0 ? 'red' : 'green') }, width (x) { return Math.abs(x) * 5 }})))
-      let commonLinkIds = {source: [], target: []}
-      commonLinks.map(el => {
-        commonLinkIds.source.push(el.source)
-        commonLinkIds.target.push(el.target)
-      })
-      let uncommonLinks = []
-      uniqueLinks.forEach(el => {
-        let s = el.source
-        let t = el.target
-        if (!(commonLinkIds.source.includes(s) && commonLinkIds.target.includes(t)) || !(commonLinkIds.source.includes(t) && commonLinkIds.target.includes(s))) {
-          uncommonLinks.push(el)
-        }
-      })
-      return {'common': commonLinks, 'uncommon': uncommonLinks}
-    },
-    calcNodes () {
-      const allNodes = flatten(Object.entries(this.data).map(([k, v], i) => v.nodes))
-      let uniqueNodes = []
-      let uniqueNodeIds = []
-      allNodes.forEach((el) => {
-        if (!uniqueNodeIds.includes(el.id)) {
-          uniqueNodeIds.push(el.id)
-          uniqueNodes.push(el)
-        }
-      })
-      return uniqueNodes
+  },
+  computed: {
+    dataUpdate () {
+      function getFam (d) {
+        let lineageArray = d.lineage.split('-')
+        let dlen = lineageArray.length
+        return lineageArray[dlen - 2]
+      }
+      let graph = this.data
+      let dataNodes = graph.nodes.sort((a, b) => d3.ascending(getFam(a), getFam(b)))
+      let dataLinks = graph.links.filter(l => l.pvalue < this.pval_cutoff)
+      return [dataNodes, dataLinks]
     }
-
   },
   mounted () {
-    // const getFam = function (d) {
-    //   let lineageArray = d.lineage.split('-')
-    //   let dlen = lineageArray.length
-    //   return lineageArray[dlen - 2]
-    // }
-    // const dataNodes = this.
-    d3.forceSimulation()
-    console.log(this.calcNodes())
-    console.log(this.calcLinks())
+    function getFam (d) {
+      let lineageArray = d.lineage.split('-')
+      let dlen = lineageArray.length
+      return lineageArray[dlen - 2]
+    }
+    let dataNodes = this.dataUpdate[0]
+    let dataLinks = this.dataUpdate[1]
+    console.log('links', dataLinks)
+    console.log('nodes', dataNodes)
+    var d3network = d3.select(this.$el)
+    var color = d3.scaleOrdinal(d3.schemeCategory20)
+    var radius = parseFloat(this.size)
+    var width = parseFloat(this.width)
+    var height = parseFloat(this.height)
+    var simulation = d3.forceSimulation()
+        .force('link', d3.forceLink().id(d => d.id))
+        .force('charge', d3.forceManyBody().strength(this.strength))
+        .force('center', d3.forceCenter(this.width / 2, this.height / 2))
+    var link = d3network.append('g')
+        .attr('class', 'links')
+        .selectAll('line')
+        .data(dataLinks)
+        .enter().append('line')
+          .attr('stroke', d => {
+            if (d.type === 'overlap') {
+              return d.weight < 0 ? 'red' : 'green'
+            } else {
+              return 'gray'
+            }
+          })
+          .attr('stroke-width', d => {
+            if (d.type === 'overlap') {
+              return Math.abs(d.weight) * 5
+            } else {
+              return 0.2
+            }
+          })
+    var node = d3network.append('g')
+      .attr('class', 'nodes')
+      .selectAll('circle')
+      .data(dataNodes)
+      .enter().append('circle')
+        .attr('r', this.size)
+        .attr('fill', d => color(getFam(d)))
+        .call(d3.drag()
+          .on('start', dragstarted)
+          .on('drag', dragged)
+          .on('end', dragended))
+    simulation
+      .nodes(dataNodes)
+    simulation.force('link')
+      .links(dataLinks)
+    simulation
+      .on('tick', ticked)
+    node.append('title')
+      .attr('class', 'node-title')
+      .text(d => 'Genus: ' + d.name + '\nLineage: ' + d.lineage)
+    node.append('text')
+      .attr('dx', 12)
+      .attr('dy', '.35em')
+      .text(d => d.name)
+    function ticked () {
+      node
+        .attr('cx', d => {
+          d.x = Math.max(radius, Math.min(width - radius, d.x))
+          return d.x
+        })
+        .attr('cy', d => {
+          d.y = Math.max(radius, Math.min(height - radius, d.y))
+          return d.y
+        })
+        // .attr('cx', d => d.x)
+        // .attr('cy', d => d.y)
+      link
+        .attr('x1', d => d.source.x)
+        .attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x)
+        .attr('y2', d => d.target.y)
+    }
+    function dragstarted (d) {
+      if (!d3.event.active) simulation.alphaTarget(0.3).restart()
+      d.fx = d.x
+      d.fy = d.y
+    }
+    function dragged (d) {
+      d.fx = d3.event.x
+      d.fy = d3.event.y
+    }
+    function dragended (d) {
+      if (!d3.event.active) simulation.alphaTarget(0)
+      d.fx = null
+      d.fy = null
+    }
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.node text {
+  font: 10px sans-serif;
+}
+</style>
+

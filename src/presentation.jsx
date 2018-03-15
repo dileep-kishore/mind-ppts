@@ -21,6 +21,7 @@ import createTheme from 'spectacle/lib/themes/default';
 import Introduction from './slides/introduction';
 import Goals from './slides/goals';
 import demoWebsite from './slides/demo_website';
+import Methods from './slides/methods';
 
 // Require CSS
 require('normalize.css');
@@ -58,6 +59,7 @@ function Presentation() {
       {Introduction}
       {Goals}
       {demoWebsite}
+      {Methods}
       <Slide transition={['fade']} bgColor="tertiary">
         <Heading size={6} textColor="primary" caps>
           Typography

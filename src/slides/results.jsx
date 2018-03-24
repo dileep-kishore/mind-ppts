@@ -45,19 +45,43 @@ export default (
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)' }}>
         <div style={{ position: 'relative', alignContent: 'center', margin: 'auto' }} >
           <Network data={pearsonNet} height={300} width={300} radius={6} radiusMargin={13} />
-          <Text textSize={20}> Pearson </Text>
+          <Text
+            style={{ position: 'absolute', bottom: '10%', left: '25%' }}
+            textSize={20}
+            textColor="lightblue"
+          >
+            Pearson
+          </Text>
         </div>
-        <div>
+        <div style={{ position: 'relative', alignContent: 'center', margin: 'auto' }} >
           <Network data={spearmanNet} height={300} width={300} radius={6} radiusMargin={13} />
-          <Text textSize={20}> Spearman </Text>
+          <Text
+            style={{ position: 'absolute', bottom: '10%', left: '25%' }}
+            textSize={20}
+            textColor="lightblue"
+          >
+           Spearman
+          </Text>
         </div>
-        <div>
+        <div style={{ position: 'relative', alignContent: 'center', margin: 'auto' }} >
           <Network data={sparccNet} height={300} width={300} radius={6} radiusMargin={13} />
-          <Text textSize={20}> SparCC </Text>
+          <Text
+            style={{ position: 'absolute', bottom: '10%', left: '25%' }}
+            textSize={20}
+            textColor="lightblue"
+          >
+            SparCC
+          </Text>
         </div>
-        <div>
+        <div style={{ position: 'relative', alignContent: 'center', margin: 'auto' }} >
           <Network data={spieceasiNet} height={300} width={250} radius={6} radiusMargin={13} />
-          <Text textSize={20}> SpiecEasi </Text>
+          <Text
+            style={{ position: 'absolute', bottom: '10%', left: '25%' }}
+            textSize={20}
+            textColor="lightblue"
+          >
+            SpiecEasi
+          </Text>
         </div>
       </div>
     </Slide>

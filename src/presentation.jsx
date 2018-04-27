@@ -24,6 +24,7 @@ import demoWebsite from './slides/demo_website';
 import Methods from './slides/methods';
 import Results from './slides/results';
 import demoWebapp from './slides/demo_webapp';
+import figureIdeas from './slides/figureIdeas';
 
 // Require CSS
 require('normalize.css');
@@ -62,8 +63,9 @@ function Presentation() {
       {Goals}
       {demoWebsite}
       {Methods}
-      {Results}
       {demoWebapp}
+      {figureIdeas}
+      {Results}
       <Slide transition={['fade']} bgColor="secondary" textColor="primary">
         <BlockQuote>
           <Quote> Thank you! </Quote>

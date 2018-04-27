@@ -27,7 +27,7 @@ const samples = require('../images/2_samples.svg');
 const clustering = require('../images/3_clusteringOTUs.svg');
 const alignment = require('../images/4_alignmenttodatabases.svg');
 const associations = require('../images/7_pairwisecorrelation.svg');
-const pipeline = require('../images/pipeline.svg');
+const pipeline = require('../images/mind_pipeline_updated.svg');
 
 const processing = 'http://journals.plos.org/ploscompbiol/article/figure/image?size=large&id=10.1371/journal.pcbi.1003531.g001';
 
@@ -155,18 +155,22 @@ export default (
       </MyHeading>
       <List>
         <MyListItem>
-          Develop a standard pipeline - study tools and good parameters
+          Develop a standard pipeline - identify tools and good parameters
         </MyListItem>
         <MyListItem>
-          Voting method
+          Create a set of guidelines using a decision tree
         </MyListItem>
         <MyListItem>
-          Decision tree
+          A consensus network created using a weighted voting scheme
         </MyListItem>
       </List>
     </Slide>
     <Slide align="center flex-start">
-      <Image src={pipeline} alt="pipeline" />
+      <Image
+        src={pipeline}
+        alt="pipeline"
+        style={{ height: '925' }}
+      />
     </Slide>
   </SlideSet>
 );

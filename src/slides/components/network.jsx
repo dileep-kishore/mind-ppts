@@ -8,9 +8,21 @@ import { InteractiveForceGraph, ForceGraphNode, ForceGraphLink } from 'react-vis
 function Network(props) {
   const { height, width, radiusMargin, radius } = props;
   const nodeData = props.data.nodes;
-  const linkData = props.data.links.filter(l => l.pvalue < l.pval_cutoff);
+  let linkFilter = () => true;
+  if (props.data.hasOwnProperty('interaction_type')) {
+    // FIXME: HACK: change 0.05 back to l.pval_cutoff
+    linkFilter = l => l.pvalue < 0.05 && Math.abs(l.weight) > 0.3;
+  } else {
+    linkFilter = l => l.pvalue < l.pval_cutoff;
+  }
+  const linkData = props.data.links.filter(linkFilter);
   const getTaxa = (d) => {
-    const lineageArray = d.split('-');
+    let lineageArray = []
+    if (d.includes('-')) {
+      lineageArray = d.split('-');
+    } else {
+      lineageArray = d.split(';').map(l => l.split('__')[1]);
+    }
     const dlen = lineageArray.length;
     return lineageArray[dlen - 2];
   };

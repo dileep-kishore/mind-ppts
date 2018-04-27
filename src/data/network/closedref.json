@@ -1,0 +1,7680 @@
+{
+  "body_site": "Stool",
+  "condition": "Control closedref",
+  "disease_state": "Healthy",
+  "experiment_info": "Fecal Microbiome Transplant",
+  "host": "Homo Sapiens",
+  "interaction_type": "correlation",
+  "links": [
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus2",
+      "target_cond": "Control",
+      "weight": -0.31110151967907945
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus31",
+      "target_cond": "Control",
+      "weight": 0.3693698597714641
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus18",
+      "target_cond": "Control",
+      "weight": 0.3532696889959745
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus13",
+      "target_cond": "Control",
+      "weight": 0.2332998291908121
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus8",
+      "target_cond": "Control",
+      "weight": 0.15834128697466854
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus26",
+      "target_cond": "Control",
+      "weight": 0.5537082831578876
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus6",
+      "target_cond": "Control",
+      "weight": 0.24366392657421698
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus16",
+      "target_cond": "Control",
+      "weight": 0.25918038449903125
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus4",
+      "target_cond": "Control",
+      "weight": 0.2289820033381701
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus36",
+      "target_cond": "Control",
+      "weight": -0.22883217045803295
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus1",
+      "target_cond": "Control",
+      "weight": 0.2942363263983309
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus40",
+      "target_cond": "Control",
+      "weight": -0.14498682498044316
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus12",
+      "target_cond": "Control",
+      "weight": 0.06516728754185225
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus21",
+      "target_cond": "Control",
+      "weight": 0.06080345507793668
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus28",
+      "target_cond": "Control",
+      "weight": -0.4990186898986576
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus5",
+      "target_cond": "Control",
+      "weight": -0.1770645168218365
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus19",
+      "target_cond": "Control",
+      "weight": 0.17752275667685824
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus22",
+      "target_cond": "Control",
+      "weight": 0.08730475722557426
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus23",
+      "target_cond": "Control",
+      "weight": 0.02069837649269701
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus27",
+      "target_cond": "Control",
+      "weight": -0.21784747732405169
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": 0.22808991918013596
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": -0.2655511216357946
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": 0.11454132857091495
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": 0.232034076210071
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": -0.022923682717814198
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": -0.26424668484383285
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": 0.2740976874613047
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": 0.11161466306907693
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": -0.045691346666495054
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": -0.16183471770751798
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": -0.1999031879305128
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": -0.27094842419106
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": -0.31421823841146096
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": -0.15177089783312944
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": -0.0409004577527492
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": -0.020888296349917467
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": 0.04307260627485061
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": -0.3810857852952101
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": -0.1305334597603446
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": -0.1204225293290034
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.3366505762462916
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus14",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": -0.2366020672184861
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus31",
+      "target_cond": "Control",
+      "weight": -0.014231083520934999
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus18",
+      "target_cond": "Control",
+      "weight": -0.3413460484643734
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus13",
+      "target_cond": "Control",
+      "weight": -0.08154936633646516
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus8",
+      "target_cond": "Control",
+      "weight": -0.4784712460749562
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus26",
+      "target_cond": "Control",
+      "weight": -0.4439330860324193
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus6",
+      "target_cond": "Control",
+      "weight": -0.2540506990155401
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus16",
+      "target_cond": "Control",
+      "weight": 0.09228795188469376
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus4",
+      "target_cond": "Control",
+      "weight": -0.07715369878505596
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus36",
+      "target_cond": "Control",
+      "weight": -0.16378063537578855
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus1",
+      "target_cond": "Control",
+      "weight": 0.01427680322294387
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus40",
+      "target_cond": "Control",
+      "weight": -0.004550200356437321
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus12",
+      "target_cond": "Control",
+      "weight": -0.07890390710540943
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus21",
+      "target_cond": "Control",
+      "weight": 0.1032781388302398
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus28",
+      "target_cond": "Control",
+      "weight": 0.2669284734727925
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus5",
+      "target_cond": "Control",
+      "weight": 0.5566689222595977
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus19",
+      "target_cond": "Control",
+      "weight": 0.13220586316807206
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus22",
+      "target_cond": "Control",
+      "weight": 0.015547221454258684
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus23",
+      "target_cond": "Control",
+      "weight": 0.1377264529348814
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus27",
+      "target_cond": "Control",
+      "weight": 0.5406850346853003
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": -0.04896992306027995
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": 0.4802745672108482
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": 0.19687858579933296
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": 0.08980947426925925
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": -0.11434517099699072
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": -0.056689643638442214
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": -0.06674931104270765
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": -0.2490045987812034
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": -0.10803212618094046
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": 0.050264087984127216
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": 0.0389863733333764
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": 0.030994440267355164
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": 0.2104432016770796
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": -0.0797447709918478
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.263490239615066
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": 0.17477956837485012
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": 0.2017304676343099
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": 0.06120410636978255
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": 0.15555118173982888
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": -0.049021799039877016
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.045551331957588606
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus2",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.16293443081150638
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus18",
+      "target_cond": "Control",
+      "weight": 0.11941948046039898
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus13",
+      "target_cond": "Control",
+      "weight": -0.022193113098273227
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus8",
+      "target_cond": "Control",
+      "weight": 0.027617815052988118
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus26",
+      "target_cond": "Control",
+      "weight": 0.1282746492502929
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus6",
+      "target_cond": "Control",
+      "weight": -0.1259932431274181
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus16",
+      "target_cond": "Control",
+      "weight": -0.09738129800460152
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus4",
+      "target_cond": "Control",
+      "weight": 0.513804216747834
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus36",
+      "target_cond": "Control",
+      "weight": -0.3707061492222752
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus1",
+      "target_cond": "Control",
+      "weight": 0.09634145118311543
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus40",
+      "target_cond": "Control",
+      "weight": -0.16202791000684824
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus12",
+      "target_cond": "Control",
+      "weight": -0.01952396789297416
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus21",
+      "target_cond": "Control",
+      "weight": 0.06668351058017402
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus28",
+      "target_cond": "Control",
+      "weight": -0.3563714734932516
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus5",
+      "target_cond": "Control",
+      "weight": 0.07612288286238689
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus19",
+      "target_cond": "Control",
+      "weight": 0.05130212650830362
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus22",
+      "target_cond": "Control",
+      "weight": 0.2575659522466904
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus23",
+      "target_cond": "Control",
+      "weight": 0.0027585711081994763
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus27",
+      "target_cond": "Control",
+      "weight": 0.0574041151431927
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": -0.028509570869805406
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": 0.11146685889798484
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": 0.453963732786715
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": 0.18021081606333966
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": -0.15856131035038531
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": 0.09574264693780292
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": 0.02538423683495635
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": 0.4138585699976805
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": 0.16024080559513745
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": -0.2894391451109685
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": -0.33961698344917546
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": 0.05832446422971035
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": -0.4556722485288309
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": -0.3163245154024091
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": -0.5667520804795366
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": 0.1878272375398267
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": 0.14605252702487373
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": -0.3452808379948263
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": 0.04731078891933669
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": -0.07898188635330139
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.5275052062069021
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus31",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": -0.2444857808625128
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus13",
+      "target_cond": "Control",
+      "weight": 0.22557192419526315
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus8",
+      "target_cond": "Control",
+      "weight": 0.04681056150991037
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus26",
+      "target_cond": "Control",
+      "weight": 0.4641307841519685
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus6",
+      "target_cond": "Control",
+      "weight": -0.02464196683599462
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus16",
+      "target_cond": "Control",
+      "weight": 0.14024199676794644
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus4",
+      "target_cond": "Control",
+      "weight": 0.27325056650526897
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus36",
+      "target_cond": "Control",
+      "weight": -0.2214102665994525
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus1",
+      "target_cond": "Control",
+      "weight": 0.17686882114774835
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus40",
+      "target_cond": "Control",
+      "weight": -0.1934294070570665
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus12",
+      "target_cond": "Control",
+      "weight": 0.1159491478624466
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus21",
+      "target_cond": "Control",
+      "weight": 0.07148505247129829
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus28",
+      "target_cond": "Control",
+      "weight": -0.21027453506735516
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus5",
+      "target_cond": "Control",
+      "weight": -0.17362570153246998
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus19",
+      "target_cond": "Control",
+      "weight": 0.048722553653231374
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus22",
+      "target_cond": "Control",
+      "weight": 0.06270672272752813
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus23",
+      "target_cond": "Control",
+      "weight": 0.02243743414822216
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus27",
+      "target_cond": "Control",
+      "weight": -0.06584577372793579
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": 0.07829159526987117
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": -0.1824908440006916
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": 0.06230986687461404
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": 0.2018225888985
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": -0.007823027780217961
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": -0.012136244260866413
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": 0.06105930967560574
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": 0.02849137781309293
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": -0.21860137334889645
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": -0.054874235797854345
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": -0.034164030876272566
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": -0.14294539126242276
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": -0.13773082244602206
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": -0.08539131471871109
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": -0.1213567285507143
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": 0.10702523318850593
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": -0.155957153111562
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": -0.09993096675483501
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": -0.06881190371320853
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": 0.11560976289895288
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.2417335961488712
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus18",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": -0.10575688254671473
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus8",
+      "target_cond": "Control",
+      "weight": -0.2398154198869977
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus26",
+      "target_cond": "Control",
+      "weight": 0.04330249858306495
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus6",
+      "target_cond": "Control",
+      "weight": 0.005741993630158082
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus16",
+      "target_cond": "Control",
+      "weight": 0.32940737731814085
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus4",
+      "target_cond": "Control",
+      "weight": -0.06649321400681225
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus36",
+      "target_cond": "Control",
+      "weight": -0.09391996809457374
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus1",
+      "target_cond": "Control",
+      "weight": 0.1783662619554361
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus40",
+      "target_cond": "Control",
+      "weight": -0.058751722855881476
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus12",
+      "target_cond": "Control",
+      "weight": 0.15536765982250253
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus21",
+      "target_cond": "Control",
+      "weight": -0.05318735390783008
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus28",
+      "target_cond": "Control",
+      "weight": -0.3383204283902308
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus5",
+      "target_cond": "Control",
+      "weight": 0.1391721294524718
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus19",
+      "target_cond": "Control",
+      "weight": -0.030531670474133327
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus22",
+      "target_cond": "Control",
+      "weight": -0.2320009212294355
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus23",
+      "target_cond": "Control",
+      "weight": 0.2430688695209121
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus27",
+      "target_cond": "Control",
+      "weight": -0.08270129623556761
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": 0.22156208466551805
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": -0.3189476679826908
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": -0.22451210914018116
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": 0.3224586833295836
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": 0.02870376899176444
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": -0.10123216614565007
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": 0.2873817542527365
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": -0.1865775504233848
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": 0.08613767469856988
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": -0.13481113512306944
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": -0.1560089861635414
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": -0.07783136131322564
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": -0.09905036979884888
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": -0.0745555247553976
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.2603921052572237
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": -0.051950299727846434
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": -0.04358777022616008
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": -0.06204838784330361
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": -0.0336226027706683
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": 0.17109731666546105
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": -0.04948852508903563
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus13",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": -0.0873089458203068
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus26",
+      "target_cond": "Control",
+      "weight": 0.3456521093328905
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus6",
+      "target_cond": "Control",
+      "weight": 0.4869428826641108
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus16",
+      "target_cond": "Control",
+      "weight": 0.004446389329806203
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus4",
+      "target_cond": "Control",
+      "weight": 0.3015864423960077
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus36",
+      "target_cond": "Control",
+      "weight": 0.3423474238691173
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus1",
+      "target_cond": "Control",
+      "weight": -0.2730582432123413
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus40",
+      "target_cond": "Control",
+      "weight": -0.013532921403613821
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus12",
+      "target_cond": "Control",
+      "weight": -0.16069280880552142
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus21",
+      "target_cond": "Control",
+      "weight": -0.2213454670945509
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus28",
+      "target_cond": "Control",
+      "weight": -0.037164001980333136
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus5",
+      "target_cond": "Control",
+      "weight": -0.26816060888373666
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus19",
+      "target_cond": "Control",
+      "weight": -0.2095405611750573
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus22",
+      "target_cond": "Control",
+      "weight": 0.06854735686464337
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus23",
+      "target_cond": "Control",
+      "weight": -0.12453840017950525
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus27",
+      "target_cond": "Control",
+      "weight": -0.38204061659109795
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": -0.12977196766036606
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": 0.10079988777849157
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": 0.11127776462896563
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": -0.3711869506979752
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": -0.011874163042493441
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": 0.1419934156641337
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": 0.0779081701070752
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": 0.2778185604047568
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": 0.18589834475227004
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": -0.08125807117015188
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": 0.03108413163117937
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": -0.18227539107757684
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": -0.08528157663575325
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": 0.06700945417828807
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": -0.41347199941598706
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": 0.12542898169967975
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": -0.1802523605028808
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": -0.0347497034671934
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": -0.2336284417151296
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": 0.12119030037266272
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.2597225147225923
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus8",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": -0.19853522050907746
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus6",
+      "target_cond": "Control",
+      "weight": 0.2949788005961361
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus16",
+      "target_cond": "Control",
+      "weight": 0.2537645865888919
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus4",
+      "target_cond": "Control",
+      "weight": 0.12170033466713305
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus36",
+      "target_cond": "Control",
+      "weight": -0.07003915074756402
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus1",
+      "target_cond": "Control",
+      "weight": 0.24740990673159705
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus40",
+      "target_cond": "Control",
+      "weight": -0.2455791975288818
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus12",
+      "target_cond": "Control",
+      "weight": 0.07761702046835306
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus21",
+      "target_cond": "Control",
+      "weight": 0.19844732763240544
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus28",
+      "target_cond": "Control",
+      "weight": -0.342522901541232
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus5",
+      "target_cond": "Control",
+      "weight": -0.26899389645073524
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus19",
+      "target_cond": "Control",
+      "weight": 0.10254190026140296
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus22",
+      "target_cond": "Control",
+      "weight": 0.01172041476648336
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus23",
+      "target_cond": "Control",
+      "weight": 0.057318027135907335
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus27",
+      "target_cond": "Control",
+      "weight": -0.2377748303605859
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": 0.1958925251769052
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": -0.033511482610183704
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": 0.04809617765782016
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": 0.05816525068921478
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": -0.12249510706167252
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": -0.221164018376525
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": 0.20206235646516785
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": 0.07862727690691011
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": -0.25952525710385105
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": 0.059647745421750324
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": -0.1500601346595115
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": -0.223255344068866
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": -0.20801902415931905
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": -0.2016619948176276
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": -0.08414724350786984
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": 0.126693481395757
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": -0.051164326232726716
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": -0.28328861997217875
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": -0.08810759259967323
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": 0.05235389870678527
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.3297869057933245
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus26",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": -0.2667945530237764
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus16",
+      "target_cond": "Control",
+      "weight": 0.06753367542307659
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus4",
+      "target_cond": "Control",
+      "weight": 0.034090844512922505
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus36",
+      "target_cond": "Control",
+      "weight": 0.2689370336522987
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus1",
+      "target_cond": "Control",
+      "weight": -0.1551942529665074
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus40",
+      "target_cond": "Control",
+      "weight": -0.051257119530308384
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus12",
+      "target_cond": "Control",
+      "weight": -0.23854465623615856
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus21",
+      "target_cond": "Control",
+      "weight": -0.1094541728915068
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus28",
+      "target_cond": "Control",
+      "weight": -0.04136614371605105
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus5",
+      "target_cond": "Control",
+      "weight": -0.02391978377022349
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus19",
+      "target_cond": "Control",
+      "weight": -0.023773754919210344
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus22",
+      "target_cond": "Control",
+      "weight": -0.006971160169054915
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus23",
+      "target_cond": "Control",
+      "weight": -0.05366398679373359
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus27",
+      "target_cond": "Control",
+      "weight": -0.4758959061073653
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": -0.061017414803356464
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": 0.030072779874795962
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": 0.19176891973964752
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": -0.2805163855986608
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": -0.11829078191305192
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": -0.10185644193786547
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": 0.19484622546267608
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": -0.06729837393152506
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": 0.12235605717181305
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": -0.10063666671255532
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": -0.1202739420573021
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": -0.0781182770695087
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": -0.013555438072151914
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": 0.08648898158845494
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": -0.1983885704578376
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": 0.2136179629016184
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": -0.08784559413318191
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": 0.0365376739381916
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": -0.18324676056919054
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": -0.0026684295621199412
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.13761340888241078
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus6",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": -0.14830564218026784
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus4",
+      "target_cond": "Control",
+      "weight": -0.3805167032333534
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus36",
+      "target_cond": "Control",
+      "weight": 0.2053478132783982
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus1",
+      "target_cond": "Control",
+      "weight": 0.2575652177406365
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus40",
+      "target_cond": "Control",
+      "weight": -0.061481135229265516
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus12",
+      "target_cond": "Control",
+      "weight": 0.07740143662825448
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus21",
+      "target_cond": "Control",
+      "weight": -0.18439292927450066
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus28",
+      "target_cond": "Control",
+      "weight": -0.11052499644455016
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus5",
+      "target_cond": "Control",
+      "weight": -0.061066231439827486
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus19",
+      "target_cond": "Control",
+      "weight": -0.11937405069401473
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus22",
+      "target_cond": "Control",
+      "weight": -0.41364140957498496
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus23",
+      "target_cond": "Control",
+      "weight": 0.325837428025666
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus27",
+      "target_cond": "Control",
+      "weight": -0.2967353899106051
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": 0.04265849092598063
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": -0.06141968336005929
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": -0.1138976004242067
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": 0.05147844743327422
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": -0.15931093085133252
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": 0.03663897101631625
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": 0.3942972146665007
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": -0.28350057785108623
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": 0.0852414758504861
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": -0.14776813950618484
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": -0.045838782108478866
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": -0.15481218332841035
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": -0.2173339734913347
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": 0.08715411682081882
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.28114567059565576
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": -0.0041972840482966105
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": 0.19863952591217515
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": -0.056964250280011876
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": -0.027912946339155958
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": 0.1265459716490825
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": -0.16891484124629186
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus16",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": -0.2323807990854209
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus36",
+      "target_cond": "Control",
+      "weight": -0.3968611635552221
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus1",
+      "target_cond": "Control",
+      "weight": 0.030512938118504918
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus40",
+      "target_cond": "Control",
+      "weight": -0.18960757070997825
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus12",
+      "target_cond": "Control",
+      "weight": -0.13170917615859976
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus21",
+      "target_cond": "Control",
+      "weight": 0.056415636414743335
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus28",
+      "target_cond": "Control",
+      "weight": 0.04392544463767101
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus5",
+      "target_cond": "Control",
+      "weight": 0.052470074635662535
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus19",
+      "target_cond": "Control",
+      "weight": 0.10356326794488042
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus22",
+      "target_cond": "Control",
+      "weight": 0.4744198310821627
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus23",
+      "target_cond": "Control",
+      "weight": -0.10168770885799497
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus27",
+      "target_cond": "Control",
+      "weight": 0.16572513059487776
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": -0.14428538886790954
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": 0.23534801403582095
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": 0.3248359558669046
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": -0.030640490618561923
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": -0.18380915286897434
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": -0.060326712739272474
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": -0.11674446576368153
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": 0.4438585152095267
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": 0.042221384383222135
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": -0.13366381572392316
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": -0.23386964725469805
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": 0.1846725615590079
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": -0.16808921153958994
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": -0.2715586242694093
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": -0.5876751640784432
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": 0.32253510317096984
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": 0.0594321370377088
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": -0.2038300872748746
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": 0.17789824104711938
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": 0.0034911111471348172
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.6688133315716345
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus4",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": -0.1077210956431382
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus1",
+      "target_cond": "Control",
+      "weight": -0.19348219589634225
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus40",
+      "target_cond": "Control",
+      "weight": 0.3517288005580625
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus12",
+      "target_cond": "Control",
+      "weight": 0.004332501119953356
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus21",
+      "target_cond": "Control",
+      "weight": -0.2506266381579669
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus28",
+      "target_cond": "Control",
+      "weight": 0.3561125544503053
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus5",
+      "target_cond": "Control",
+      "weight": -0.10833019368502923
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus19",
+      "target_cond": "Control",
+      "weight": -0.35307641351707275
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus22",
+      "target_cond": "Control",
+      "weight": -0.4438124434895047
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus23",
+      "target_cond": "Control",
+      "weight": -0.015365361452820591
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus27",
+      "target_cond": "Control",
+      "weight": -0.32610061263711604
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": -0.0037116412065096587
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": -0.06781097012018529
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": -0.1593554587930521
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": -0.2551504255343571
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": 0.09295957908437127
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": 0.33484977368527963
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": 0.03468580149499312
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": -0.10216253670080856
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": 0.32935050171246705
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": 0.1032964095944624
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": 0.32004117814249866
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": -0.06833761473339015
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": 0.1514003743546114
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": 0.24211870444304506
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.12292610890917102
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": -0.162574253740213
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": 0.025823375216551932
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": 0.25485556648970625
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": -0.10274071487862838
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": -0.043157885626850766
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": -0.3117770883528391
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus36",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.043979793991561884
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus40",
+      "target_cond": "Control",
+      "weight": -0.004280671342319894
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus12",
+      "target_cond": "Control",
+      "weight": -0.017005995530830344
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus21",
+      "target_cond": "Control",
+      "weight": 0.2141198925931278
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus28",
+      "target_cond": "Control",
+      "weight": -0.16425722777517254
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus5",
+      "target_cond": "Control",
+      "weight": -0.09725395372910013
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus19",
+      "target_cond": "Control",
+      "weight": 0.13602574928824146
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus22",
+      "target_cond": "Control",
+      "weight": 0.050180856829976916
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus23",
+      "target_cond": "Control",
+      "weight": 0.16570602092812453
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus27",
+      "target_cond": "Control",
+      "weight": -0.007073495392043373
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": 0.19841413225718124
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": -0.3903682844009139
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": 0.002038889460958842
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": 0.3580757990616725
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": -0.14891739406134585
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": -0.0964210793891084
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": 0.21596428807850732
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": -0.014692812615199032
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": -0.19683960271612824
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": -0.10537135037552237
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": -0.4477634094283432
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": -0.03739158693676209
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": -0.2338657593087712
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": -0.20150336718762493
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.12585902649060474
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": 0.19728554786390864
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": 0.22970532094502635
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": -0.12015436119530346
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": 0.1870718834019452
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": -0.008560739669922194
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.21925827007253695
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus1",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": -0.3815560949097596
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus12",
+      "target_cond": "Control",
+      "weight": -0.034968978685096665
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus21",
+      "target_cond": "Control",
+      "weight": -0.14087284979574624
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus28",
+      "target_cond": "Control",
+      "weight": 0.034856451485127865
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus5",
+      "target_cond": "Control",
+      "weight": -0.17596675120015415
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus19",
+      "target_cond": "Control",
+      "weight": -0.10850127418097813
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus22",
+      "target_cond": "Control",
+      "weight": -0.1867755060905429
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus23",
+      "target_cond": "Control",
+      "weight": -0.16265028604342094
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus27",
+      "target_cond": "Control",
+      "weight": -0.027872423632358985
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": -0.05866578019602733
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": -0.23462356443823185
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": -0.05412473526032503
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": 0.025239481657025067
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": 0.006096086675109058
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": 0.14150115939237942
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": 0.01771865352982675
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": -0.01624290790173628
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": 0.2485375763743023
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": 0.10286875693527413
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": 0.04073912091252541
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": 0.024813881599104668
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": 0.07971857564783552
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": 0.07577958886909324
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.10695137254826828
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": -0.17495786923573575
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": 0.1170548597681484
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": 0.3223673167718153
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": -0.031991693790101056
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": -0.1378807282106882
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": -0.14026451195566686
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus40",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.2135729690866632
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus21",
+      "target_cond": "Control",
+      "weight": 0.22261406838332465
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus28",
+      "target_cond": "Control",
+      "weight": -0.13698424089186753
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus5",
+      "target_cond": "Control",
+      "weight": -0.23046329289390494
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus19",
+      "target_cond": "Control",
+      "weight": 0.1327283665437037
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus22",
+      "target_cond": "Control",
+      "weight": -0.06646990533396528
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus23",
+      "target_cond": "Control",
+      "weight": 0.050894423377815606
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus27",
+      "target_cond": "Control",
+      "weight": 0.12595615093143048
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": 0.28799642121393143
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": -0.2859044496334537
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": -0.2320559169680738
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": 0.1943465286737902
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": 0.12441231695081878
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": -0.09868129965136004
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": -0.15897356921462422
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": -0.007826987933621316
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": 0.1369434854020362
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": 0.11693748895262633
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": 0.10561841313214647
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": 0.26055556215394626
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": -0.08134661510584297
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": 0.10980243534747157
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.056407269383164975
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": -0.3924987140034336
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": 0.12794047082578686
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": -0.0026860885985902955
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": 0.14371608675137065
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": 0.0004437577052420901
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": -0.23665519001306415
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus12",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.2750432141141755
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus28",
+      "target_cond": "Control",
+      "weight": -0.21583648337786127
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus5",
+      "target_cond": "Control",
+      "weight": -0.08593930915871865
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus19",
+      "target_cond": "Control",
+      "weight": 0.6453311851789971
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus22",
+      "target_cond": "Control",
+      "weight": 0.22134497228175312
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus23",
+      "target_cond": "Control",
+      "weight": -0.09067541297644716
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus27",
+      "target_cond": "Control",
+      "weight": 0.5511898672807599
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": 0.2488005997215345
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": 0.10027834320576913
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": 0.044055907551621136
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": 0.3196744520600388
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": 0.07828364527995546
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": -0.2696840962228067
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": -0.10141807664518457
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": 0.1203037694488188
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": -0.2308726038965919
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": 0.2991860469766456
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": 0.08429266525680122
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": 0.013964926451299141
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": 0.08781148584548118
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": 0.01809080838837755
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.019501045595175785
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": -0.2447425865085896
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": 0.040448488738361515
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": -0.15186919117444667
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": 0.04571246548221365
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": -0.058523381120614275
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.026032996633974785
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus21",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.4598674429918802
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus5",
+      "target_cond": "Control",
+      "weight": 0.10019551701497673
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus19",
+      "target_cond": "Control",
+      "weight": -0.17326195771804592
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus22",
+      "target_cond": "Control",
+      "weight": -0.05261539098944683
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus23",
+      "target_cond": "Control",
+      "weight": 0.23594854520755626
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus27",
+      "target_cond": "Control",
+      "weight": 0.13867123486895913
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": -0.37503788280125655
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": 0.20921997450799665
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": -0.034676873975621456
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": -0.34091600808516265
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": 0.0029340603503559518
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": 0.28730152051556396
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": -0.1441162484533526
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": -0.21913823688982914
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": 0.06477843121504681
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": 0.05861272972451101
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": 0.3077616122853959
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": 0.1890811411536693
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": 0.30444093170214764
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": 0.20211858909075234
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.0054587314683450065
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": 0.1917950704404645
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": -0.037190680537330816
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": 0.0018742674313305232
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": 0.15665010324987338
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": 0.010090073002248904
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": -0.10197580182812684
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus28",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": -0.0792317020443223
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus19",
+      "target_cond": "Control",
+      "weight": -0.0190873080571778
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus22",
+      "target_cond": "Control",
+      "weight": -0.14440287023630713
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus23",
+      "target_cond": "Control",
+      "weight": 0.02186433190194596
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus27",
+      "target_cond": "Control",
+      "weight": 0.1806248270850844
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": -0.07230583139162372
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": 0.19988503160048016
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": 0.2602632037371901
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": 0.2144572664822362
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": -0.08058950737976066
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": -0.09710621322086116
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": 0.30118290242678786
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": -0.21184770499153335
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": 0.052796834797335816
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": -0.14322225539764522
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": 0.005777495811849075
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": -0.17731194214570062
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": 0.10922900114906872
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": -0.16250539363829558
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.19187755292964606
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": 0.4517404430398752
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": -0.1834868660673692
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": 0.06223802480760155
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": -0.06631455552141967
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": -0.050194616742032766
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.3171119426303167
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus5",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.011429194272724272
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus22",
+      "target_cond": "Control",
+      "weight": 0.40999423252513617
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus23",
+      "target_cond": "Control",
+      "weight": -0.1271057300510347
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus27",
+      "target_cond": "Control",
+      "weight": 0.4775584904144903
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": 0.19556605358243506
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": 0.099427438841985
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": -0.0390454760387388
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": 0.191775270885956
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": 0.050018428708981495
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": -0.3631356370255225
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": -0.097490110481172
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": 0.0788988260419205
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": -0.3283155056447661
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": 0.303349827810124
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": 0.14727398202123615
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": 0.011535214517456134
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": 0.15173299504367674
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": 0.027877932484736037
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.039536872788602864
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": -0.02326105231967245
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": 0.1892934855264929
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": -0.18609172214931624
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": 0.028163908129855832
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": 0.0007453448795490327
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.013683098945554905
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus19",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.15369713748513295
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus23",
+      "target_cond": "Control",
+      "weight": -0.0970898024366962
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus27",
+      "target_cond": "Control",
+      "weight": 0.28078427718702303
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": -0.010295365177974546
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": 0.18081166668715154
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": 0.2322988061514378
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": 0.04953380669383469
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": 0.0074887025663520875
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": -0.11127728274172598
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": -0.24822567230595535
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": 0.27315701444174584
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": -0.1614472108574983
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": 0.18873086790805266
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": -0.04310776862229745
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": 0.1381450267074482
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": 0.05764650864327296
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": -0.03554382074275954
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": -0.2660979154621427
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": 0.06551556815889313
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": 0.05404487906008875
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": -0.14232247862322875
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": 0.12053459342000547
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": -0.09296829372892157
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.5201309981912884
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus22",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.04932570036969339
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus27",
+      "target_cond": "Control",
+      "weight": -0.14952726507324154
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": -0.0438533020327372
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": -0.01558190452843901
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": 0.23655078920884345
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": -0.1796039691904543
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": -0.09688905272635268
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": 0.24594270172797125
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": 0.13644857488053755
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": -0.23197105666765536
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": 0.00689013735070701
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": -0.1802683584566017
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": -0.04947668028577911
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": 0.06987929995433619
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": -0.12161360481531144
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": -0.06726634543819256
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.06755472787166063
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": 0.3624580422306462
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": 0.07270650496263092
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": -0.09367390295896978
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": 0.19283864318881366
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": -0.05459054646499289
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.14831281425912926
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus23",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": -0.35307352987425816
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus39",
+      "target_cond": "Control",
+      "weight": 0.13200925262242355
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": 0.3687597815033255
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": -0.09989240387961287
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": 0.1198847312881648
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": 0.0680547601703047
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": -0.0206867044022246
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": -0.2712478339317646
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": 0.0545242499974352
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": -0.15782591559116932
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": 0.2690459093859124
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": 0.042273758457277766
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": 0.14828074464535645
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": 0.3541738547207348
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": -0.11452173255272367
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.11469826175694993
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": -0.18861561813561464
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": 0.05468079685281856
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": -0.09250232375223456
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": 0.1833182755983491
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": 0.0058997068516513295
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.0016689368334864806
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus27",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.4008392173263194
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus3",
+      "target_cond": "Control",
+      "weight": -0.16345655949068785
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": -0.19208895126823347
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": 0.24185609195139
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": -0.08465785000517195
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": -0.1546902829363764
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": 0.059717573891182464
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": 0.3073381089582065
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": -0.2427575825816681
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": 0.3418239027088453
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": -0.14907610442061786
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": 0.007276077555137465
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": -0.12158112279060065
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": -0.038956102676246086
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.3555237158243235
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": -0.3889895881283229
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": 0.22604583107564186
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": -0.06931551949539339
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": 0.047571516940579706
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": 0.1293845734413871
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": -0.11260487953539143
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus39",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.176383706060429
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus3",
+      "source_cond": "Control",
+      "target": "genus35",
+      "target_cond": "Control",
+      "weight": 0.21310372222069926
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus3",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": -0.1723308556855066
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus3",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": -0.19464310613636404
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus3",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": -0.04336407133182468
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus3",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": -0.2608102010365901
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus3",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": -0.01916277434012261
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus3",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": 0.0687904800211043
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus3",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": -0.0031230491521104953
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus3",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": 0.13306318835427192
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus3",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": -0.07495859811938907
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus3",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": 0.2592295113929847
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus3",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": -0.2367472415107903
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus3",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": -0.18116461290505126
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus3",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": 0.2160692028165073
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus3",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": -0.015107542384243056
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus3",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": -0.12591990515225152
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus3",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": 0.09400253920581447
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus3",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": -0.09465649069310064
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus3",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.3403968947049421
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus3",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.043943634514325335
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus35",
+      "source_cond": "Control",
+      "target": "genus29",
+      "target_cond": "Control",
+      "weight": -0.11037118971917126
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus35",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": -0.04469039888524159
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus35",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": 0.1743867905333414
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus35",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": 0.30460079701749393
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus35",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": 0.1551145087236291
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus35",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": -0.05814181628524626
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus35",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": -0.3210917158562468
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus35",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": -0.14298078265307906
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus35",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": 0.06439457597722043
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus35",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": -0.17162936481736127
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus35",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": -0.06780805428156088
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus35",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": -0.4853397288955091
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus35",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": 0.5428573577027325
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus35",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": -0.16183154784086656
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus35",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": -0.14141543287322114
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus35",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": 0.008452467402283767
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus35",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": -0.20266445618179574
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus35",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.5811142164927255
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus35",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": -0.3231310990941412
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus29",
+      "source_cond": "Control",
+      "target": "genus0",
+      "target_cond": "Control",
+      "weight": -0.01152616276081728
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus29",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": -0.3488550435926417
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus29",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": 0.07463059941150763
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus29",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": -0.06494498407573306
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus29",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": -0.07749933784584502
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus29",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": -0.08281681342800255
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus29",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": -0.08796175661504341
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus29",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": -0.2557260849349808
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus29",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": -0.0748206111464711
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus29",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": -0.21828685253581093
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus29",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.3103437833905636
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus29",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": 0.027651106667576027
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus29",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": -0.05486043801858005
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus29",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": 0.0061204734068304005
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus29",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": -0.0010413043225255551
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus29",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": -0.059279919273195925
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus29",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.07177187166990481
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus29",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.13116622900235536
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus0",
+      "source_cond": "Control",
+      "target": "genus15",
+      "target_cond": "Control",
+      "weight": -0.031802407290102384
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus0",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": -0.1272639781487344
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus0",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": 0.07834956379649842
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus0",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": -0.003966560169196112
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus0",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": 0.1924884965193199
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus0",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": 0.21454695121726905
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus0",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": 0.0685140631677038
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus0",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": 0.12831838072141244
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus0",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": 0.3678753439501543
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus0",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.022021343129116182
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus0",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": -0.24572511380730302
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus0",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": -0.05634675026851035
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus0",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": 0.07934376900591167
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus0",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": -0.11945395861437587
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus0",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": 0.0873761623988302
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus0",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": -0.13934630703130158
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus0",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.04815002052569789
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus15",
+      "source_cond": "Control",
+      "target": "genus41",
+      "target_cond": "Control",
+      "weight": -0.027953612068783332
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus15",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": 0.03208998837860587
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus15",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": 0.14224766620676796
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus15",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": -0.1465390576629511
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus15",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": -0.1193440058157811
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus15",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": 0.17202218320058515
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus15",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": 0.04401278566291826
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus15",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": 0.1826162566794759
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus15",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": -0.185452642563952
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus15",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": 0.04651501703154009
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus15",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": -0.09302584026776936
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus15",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": 0.20116651351639994
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus15",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": 0.1329751939341524
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus15",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": 0.21107342110335325
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus15",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": -0.07915979029910264
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus15",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": -0.1901792407029903
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus41",
+      "source_cond": "Control",
+      "target": "genus17",
+      "target_cond": "Control",
+      "weight": -0.17761963795359986
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus41",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": -0.09801903489198532
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus41",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": -0.2499903415903724
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus41",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": -0.05047055288285683
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus41",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": -0.3268439299599664
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus41",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": -0.1307195985035946
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus41",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": -0.01076802299006705
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus41",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.13746647169996312
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus41",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": 0.3183477458468328
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus41",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": -0.06248329949817302
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus41",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": -0.0755815921812397
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus41",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": -0.2236289351691121
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus41",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": -0.032118059632710985
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus41",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.18247015703843475
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus41",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": -0.25920612237936497
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus17",
+      "source_cond": "Control",
+      "target": "genus9",
+      "target_cond": "Control",
+      "weight": 0.06488478393727777
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus17",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": 0.0430482421563594
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus17",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": -0.3475271148833909
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus17",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": -0.0022028842966057
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus17",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": -0.20160089854796173
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus17",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": -0.06924708483849205
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus17",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": -0.4525533320687186
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus17",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": -0.1299908180576814
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus17",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": 0.08247688908224916
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus17",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": -0.012778180619304852
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus17",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": -0.04214265426469501
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus17",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": 0.09639703566655516
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus17",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.2104905134578316
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus17",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.13002603937638954
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus9",
+      "source_cond": "Control",
+      "target": "genus20",
+      "target_cond": "Control",
+      "weight": -0.2914060201900193
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus9",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": 0.12212107506274765
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus9",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": 0.10743629716830272
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus9",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": -0.12990000941438862
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus9",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": -0.06740965260638444
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus9",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": -0.23048976566436344
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus9",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": 0.02092816480177428
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus9",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": 0.010746177763860445
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus9",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": 0.11195995108910084
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus9",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": -0.02403185924705945
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus9",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": 0.06975191618432255
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus9",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": -0.02159502353213151
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus9",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.04199415080567685
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus20",
+      "source_cond": "Control",
+      "target": "genus10",
+      "target_cond": "Control",
+      "weight": 0.21063020944581695
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus20",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": 0.1777504490041005
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus20",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": 0.31885111209040745
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus20",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": 0.10936494533950973
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus20",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.2538850030268192
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus20",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": -0.3064806450801265
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus20",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": 0.07256100335413812
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus20",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": 0.05052445144342623
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus20",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": -0.030545431708508788
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus20",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": 0.006956256266606176
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus20",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": -0.2077570996504234
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus20",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.242761923327901
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus10",
+      "source_cond": "Control",
+      "target": "genus24",
+      "target_cond": "Control",
+      "weight": -0.1482419128981502
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus10",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": 0.2553367772514705
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus10",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": 0.3144659559252768
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus10",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.27860795250931936
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus10",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": -0.09004551571930543
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus10",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": -0.14753419191711012
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus10",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": 0.06551916366418986
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus10",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": -0.052301134530845145
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus10",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": -0.13549865204767464
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus10",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": -0.17313346877337688
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus10",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.4369040705651159
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus24",
+      "source_cond": "Control",
+      "target": "genus33",
+      "target_cond": "Control",
+      "weight": 0.05111400318352795
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus24",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": 0.09851483790667202
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus24",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": -0.16607907589626433
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus24",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": -0.13370386756664174
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus24",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": 0.07300109284546033
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus24",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": 0.025927514650286476
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus24",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": 0.222613653568464
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus24",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": 0.15538963130898995
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus24",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": -0.017395563762315373
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus24",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": -0.012118580744248951
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus33",
+      "source_cond": "Control",
+      "target": "genus37",
+      "target_cond": "Control",
+      "weight": 0.20300936148546328
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus33",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.26397463252994163
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus33",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": -0.00393512918996559
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus33",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": -0.12830457999737094
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus33",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": 0.15313252721227635
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus33",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": -0.08352054667122516
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus33",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": 0.10887531655832136
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus33",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": -0.25014339116069123
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus33",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.3687530757129239
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus37",
+      "source_cond": "Control",
+      "target": "genus30",
+      "target_cond": "Control",
+      "weight": 0.1468287168865571
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus37",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": -0.21142471294718101
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus37",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": -0.013727474120697235
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus37",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": 0.03193182434249226
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus37",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": -0.2437601210694112
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus37",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": 0.0907855103555468
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus37",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": -0.17635657239885516
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus37",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.1967961271422928
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus30",
+      "source_cond": "Control",
+      "target": "genus42",
+      "target_cond": "Control",
+      "weight": -0.24564275125684865
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus30",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": 0.07231981973520958
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus30",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": 0.11216319795204388
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus30",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": -0.03422171797449457
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus30",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": -0.03247626142975942
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus30",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": -0.4843880906929432
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus30",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.1713961321779876
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus42",
+      "source_cond": "Control",
+      "target": "genus25",
+      "target_cond": "Control",
+      "weight": -0.16355009771392234
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus42",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": 0.018586462386580557
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus42",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": 0.08846279494726468
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus42",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": 0.0416394011089035
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus42",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.5319206408859712
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus42",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": -0.4947859851541785
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus25",
+      "source_cond": "Control",
+      "target": "genus38",
+      "target_cond": "Control",
+      "weight": 0.019802148414918355
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus25",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": 0.19150554979300272
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus25",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": -0.09272886571808664
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus25",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": -0.031729816425603
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus25",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.014319441839205397
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus38",
+      "source_cond": "Control",
+      "target": "genus34",
+      "target_cond": "Control",
+      "weight": 0.019287252291988063
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus38",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": -0.09448342280612322
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus38",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": -0.1114249112994113
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus38",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": 0.15721573759339585
+    },
+    {
+      "pvalue": 0.826184092940125,
+      "source": "genus34",
+      "source_cond": "Control",
+      "target": "genus11",
+      "target_cond": "Control",
+      "weight": -0.0802491396466375
+    },
+    {
+      "pvalue": 0.5196739741427768,
+      "source": "genus34",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.07442193138125429
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus34",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": -0.013520133708560169
+    },
+    {
+      "pvalue": 1.0,
+      "source": "genus11",
+      "source_cond": "Control",
+      "target": "genus7",
+      "target_cond": "Control",
+      "weight": 0.00787142007818447
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus11",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": -0.09558509990854286
+    },
+    {
+      "pvalue": 0.0,
+      "source": "genus7",
+      "source_cond": "Control",
+      "target": "genus32",
+      "target_cond": "Control",
+      "weight": -0.2833346219958907
+    }
+  ],
+  "method": "closed reference",
+  "nodes": [
+    {
+      "children": [
+        "species22"
+      ],
+      "id": "genus14",
+      "lineage": "p__Firmicutes;c__Clostridia;o__Clostridiales;f__;g__",
+      "name": "Clostridiales",
+      "taxid": "186802",
+      "taxlevel": "order"
+    },
+    {
+      "children": [
+        "species3",
+        "species4",
+        "species7",
+        "species5",
+        "species8",
+        "species6"
+      ],
+      "id": "genus2",
+      "lineage": "p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides",
+      "name": "Bacteroides",
+      "taxid": "816",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species41"
+      ],
+      "id": "genus31",
+      "lineage": "p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Phascolarctobacterium",
+      "name": "Phascolarctobacterium",
+      "taxid": "33024",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species26"
+      ],
+      "id": "genus18",
+      "lineage": "p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__SMB53",
+      "name": "Clostridiaceae",
+      "taxid": "31979",
+      "taxlevel": "family"
+    },
+    {
+      "children": [
+        "species21"
+      ],
+      "id": "genus13",
+      "lineage": "p__Firmicutes;c__Bacilli;o__Turicibacterales;f__Turicibacteraceae;g__Turicibacter",
+      "name": "Turicibacter",
+      "taxid": "191303",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species16"
+      ],
+      "id": "genus8",
+      "lineage": "p__Euryarchaeota;c__Methanobacteria;o__Methanobacteriales;f__Methanobacteriaceae;g__Methanobrevibacter",
+      "name": "Methanobrevibacter",
+      "taxid": "2172",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species36"
+      ],
+      "id": "genus26",
+      "lineage": "p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__",
+      "name": "Ruminococcaceae",
+      "taxid": "541000",
+      "taxlevel": "family"
+    },
+    {
+      "children": [
+        "species14"
+      ],
+      "id": "genus6",
+      "lineage": "p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Rikenellaceae;g__Alistipes",
+      "name": "Alistipes",
+      "taxid": "239759",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species24"
+      ],
+      "id": "genus16",
+      "lineage": "p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__",
+      "name": "Clostridiaceae",
+      "taxid": "31979",
+      "taxlevel": "family"
+    },
+    {
+      "children": [
+        "species11",
+        "species12"
+      ],
+      "id": "genus4",
+      "lineage": "p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella",
+      "name": "Prevotella",
+      "taxid": "838",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species46"
+      ],
+      "id": "genus36",
+      "lineage": "p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__",
+      "name": "Enterobacteriaceae",
+      "taxid": "543",
+      "taxlevel": "family"
+    },
+    {
+      "children": [
+        "species1",
+        "species2"
+      ],
+      "id": "genus1",
+      "lineage": "p__Actinobacteria;c__Actinobacteria;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Bifidobacterium",
+      "name": "Bifidobacterium",
+      "taxid": "1678",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species50"
+      ],
+      "id": "genus40",
+      "lineage": "p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas",
+      "name": "Pseudomonas",
+      "taxid": "286",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species20"
+      ],
+      "id": "genus12",
+      "lineage": "p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus",
+      "name": "Streptococcus",
+      "taxid": "1301",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species29",
+        "species30"
+      ],
+      "id": "genus21",
+      "lineage": "p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Blautia",
+      "name": "Blautia",
+      "taxid": "572511",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species38"
+      ],
+      "id": "genus28",
+      "lineage": "p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Oscillospira",
+      "name": "Oscillospira",
+      "taxid": "119852",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species13"
+      ],
+      "id": "genus5",
+      "lineage": "p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Rikenellaceae;g__",
+      "name": "Rikenellaceae",
+      "taxid": "171550",
+      "taxlevel": "family"
+    },
+    {
+      "children": [
+        "species27"
+      ],
+      "id": "genus19",
+      "lineage": "p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__",
+      "name": "Lachnospiraceae",
+      "taxid": "186803",
+      "taxlevel": "family"
+    },
+    {
+      "children": [
+        "species31",
+        "species32"
+      ],
+      "id": "genus22",
+      "lineage": "p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Coprococcus",
+      "name": "Coprococcus",
+      "taxid": "33042",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species33"
+      ],
+      "id": "genus23",
+      "lineage": "p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Dorea",
+      "name": "Dorea",
+      "taxid": "189330",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species37"
+      ],
+      "id": "genus27",
+      "lineage": "p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Faecalibacterium",
+      "name": "Faecalibacterium",
+      "taxid": "216851",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species49"
+      ],
+      "id": "genus39",
+      "lineage": "p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Haemophilus",
+      "name": "Haemophilus",
+      "taxid": "724",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species9",
+        "species10"
+      ],
+      "id": "genus3",
+      "lineage": "p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Parabacteroides",
+      "name": "Parabacteroides",
+      "taxid": "375288",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species45"
+      ],
+      "id": "genus35",
+      "lineage": "p__Proteobacteria;c__Deltaproteobacteria;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Bilophila",
+      "name": "Bilophila",
+      "taxid": "35832",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species39"
+      ],
+      "id": "genus29",
+      "lineage": "p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Ruminococcus",
+      "name": "Ruminococcus",
+      "taxid": "1263",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species0"
+      ],
+      "id": "genus0",
+      "lineage": "p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Corynebacteriaceae;g__Corynebacterium",
+      "name": "Corynebacterium",
+      "taxid": "1716",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species23"
+      ],
+      "id": "genus15",
+      "lineage": "p__Firmicutes;c__Clostridia;o__Clostridiales;f__Christensenellaceae;g__",
+      "name": "Christensenellaceae",
+      "taxid": "990719",
+      "taxlevel": "family"
+    },
+    {
+      "children": [
+        "species51"
+      ],
+      "id": "genus41",
+      "lineage": "p__Tenericutes;c__Mollicutes;o__RF39;f__;g__",
+      "name": "Mollicutes",
+      "taxid": "31969",
+      "taxlevel": "class"
+    },
+    {
+      "children": [
+        "species25"
+      ],
+      "id": "genus17",
+      "lineage": "p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__Clostridium",
+      "name": "Clostridium",
+      "taxid": "1485",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species17"
+      ],
+      "id": "genus9",
+      "lineage": "p__Firmicutes;c__Bacilli;o__Bacillales;f__Bacillaceae;g__Bacillus",
+      "name": "Bacillus",
+      "taxid": "1386",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species28"
+      ],
+      "id": "genus20",
+      "lineage": "p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Anaerostipes",
+      "name": "Anaerostipes",
+      "taxid": "207244",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species18"
+      ],
+      "id": "genus10",
+      "lineage": "p__Firmicutes;c__Bacilli;o__Bacillales;f__Staphylococcaceae;g__Staphylococcus",
+      "name": "Staphylococcus",
+      "taxid": "1279",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species34"
+      ],
+      "id": "genus24",
+      "lineage": "p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Lachnobacterium",
+      "name": "Lachnobacterium",
+      "taxid": "140625",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species43"
+      ],
+      "id": "genus33",
+      "lineage": "p__Proteobacteria;c__Alphaproteobacteria;o__RF32;f__;g__",
+      "name": "Alphaproteobacteria",
+      "taxid": "28211",
+      "taxlevel": "class"
+    },
+    {
+      "children": [
+        "species47"
+      ],
+      "id": "genus37",
+      "lineage": "p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Providencia",
+      "name": "Providencia",
+      "taxid": "586",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species40"
+      ],
+      "id": "genus30",
+      "lineage": "p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Dialister",
+      "name": "Dialister",
+      "taxid": "39948",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species52"
+      ],
+      "id": "genus42",
+      "lineage": "p__Verrucomicrobia;c__Verrucomicrobiae;o__Verrucomicrobiales;f__Verrucomicrobiaceae;g__Akkermansia",
+      "name": "Akkermansia",
+      "taxid": "239934",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species35"
+      ],
+      "id": "genus25",
+      "lineage": "p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Lachnospira",
+      "name": "Lachnospira",
+      "taxid": "28050",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species48"
+      ],
+      "id": "genus38",
+      "lineage": "p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Serratia",
+      "name": "Serratia",
+      "taxid": "613",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species44"
+      ],
+      "id": "genus34",
+      "lineage": "p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Alcaligenaceae;g__Sutterella",
+      "name": "Sutterella",
+      "taxid": "40544",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species19"
+      ],
+      "id": "genus11",
+      "lineage": "p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactobacillus",
+      "name": "Lactobacillus",
+      "taxid": "1578",
+      "taxlevel": "genus"
+    },
+    {
+      "children": [
+        "species15"
+      ],
+      "id": "genus7",
+      "lineage": "p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Barnesiellaceae];g__",
+      "name": "Bacteroidales",
+      "taxid": "171549",
+      "taxlevel": "order"
+    },
+    {
+      "children": [
+        "species42"
+      ],
+      "id": "genus32",
+      "lineage": "p__Firmicutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__",
+      "name": "Erysipelotrichaceae",
+      "taxid": "128827",
+      "taxlevel": "family"
+    }
+  ],
+  "pubmed_id": 0,
+  "pval_cutoff": 1.00,
+  "pvalue_method": "fdr_bh"
+}

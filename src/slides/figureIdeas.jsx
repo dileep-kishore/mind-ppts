@@ -11,7 +11,6 @@ import {
 import { MyListItem, MyHeading } from './components/tags';
 
 const mainFig = require('../images/main_fig.png');
-const diversity = require('../images/otu_diversity.png');
 
 export default (
   <SlideSet>
@@ -32,12 +31,6 @@ export default (
     </Slide>
     <Slide align="center flex-start">
       <MyHeading>
-        Diversity
-      </MyHeading>
-      <Image src={diversity} alt="otu_diversity" />
-    </Slide>
-    <Slide align="center flex-start">
-      <MyHeading>
         Distance Metrics
       </MyHeading>
       <List>
@@ -53,6 +46,26 @@ export default (
       </List>
     </Slide>
     <Slide align="center flex-start">
+      <Notes>
+        <h4> Slide Notes </h4>
+        <ol>
+          <li>
+          Figure 1: Variation due to different steps of the pipeline as a bar chart. These can be co-efficients from a linear regression in the space of the variance?
+          </li>
+          <li>
+          Figure 2: Diversity, Rank abundance, Pairwise correlations after the denoising step
+          </li>
+          <li>
+          Figure 3: Sequence similarity, sequence mismatch in taxonomy, abundance similarity at the taxonomy assignment step
+          </li>
+          <li>
+          Figure 4: Edge overlaps, Degree distribution and some other metrics after the network step
+          </li>
+          <li>
+          Figure 5: Comparing to a network manually curated from literature (Vaginal microbiome might be the best system because it has the fewest number of species)
+          </li>
+        </ol>
+      </Notes>
       <MyHeading>
         Other Figures
       </MyHeading>

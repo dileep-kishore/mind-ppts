@@ -150,6 +150,12 @@ export default (
     {Processing}
     {Associations}
     <Slide align="center flex-start">
+      <Notes>
+        <h4> Slide Notes </h4>
+        <ol>
+          <li> By guidelines I mean suggest methods that they can use based on their data </li>
+        </ol>
+      </Notes>
       <MyHeading>
         Pipeline
       </MyHeading>

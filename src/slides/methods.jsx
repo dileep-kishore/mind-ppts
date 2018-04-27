@@ -8,7 +8,7 @@ import {
   SlideSet,
   Image,
   S,
-  Text,
+  Notes,
 } from 'spectacle';
 import { css } from 'emotion';
 import { MyHeading, MyListItem } from './components/tags';
@@ -158,6 +158,9 @@ export default (
           Develop a standard pipeline - identify tools and good parameters
         </MyListItem>
         <MyListItem>
+          This pipeline would be used to process all the data to be stored in the database
+        </MyListItem>
+        <MyListItem>
           Create a set of guidelines using a decision tree
         </MyListItem>
         <MyListItem>
@@ -166,6 +169,13 @@ export default (
       </List>
     </Slide>
     <Slide align="center flex-start">
+      <Notes>
+        <h4> Slide Notes </h4>
+        <ol>
+          <li> We decided to broadly divide the pipeline into 4 components </li>
+          <li> Our aim to determine how different methods chosen in these components affect </li>
+        </ol>
+      </Notes>
       <Image
         src={pipeline}
         alt="pipeline"

@@ -6,6 +6,7 @@ import {
   Text,
   SlideSet,
   Image,
+  Notes,
 } from 'spectacle';
 
 import { MyHeading } from './components/tags';
@@ -24,14 +25,17 @@ import openrefNet from '../data/network/openref.json';
 import denovoNet from '../data/network/denovo.json';
 import dada2Net from '../data/network/dada2.json';
 
-const literature = require('../images/network_comp_paper.png');
+// const literature = require('../images/network_comp_paper.png');
 const allDenoise = require('../images/all_denoise.png');
 const allDenoiseCommon = require('../images/all_denoise_common.png');
-const diversity = require('../images/otu_diversity.png');
 const l1Denoise = require('../images/l1_denoise.png');
 const degDenoise = require('../images/deg_denoise.png');
 const overlapDenoise = require('../images/overlap_denoise.png');
-const circularNetwork = require('../images/circular_network.png');
+// const circularNetwork = require('../images/circular_network.png');
+const diversity = require('../images/gabriel/diversity_comparison.png');
+const rankAbund = require('../images/gabriel/rank_abundances_ref_closedref.png');
+const denovoOpenrefCorr = require('../images/gabriel/denovo-openref_correlation.png');
+const dada2DenovoCorr = require('../images/gabriel/dada2-denovo_correlation.png');
 
 
 const netInferenceArr = [
@@ -66,6 +70,15 @@ export default (
       </div>
     </Slide>
     <Slide align="center flex-start">
+      <Notes>
+        <h4> Slide Notes </h4>
+        <ol>
+          <li>
+            Show Dialister and Phascolactobaterium. This makes me think that we should look at
+            connected components
+          </li>
+        </ol>
+      </Notes>
       <MyHeading>
         Network inference methods
       </MyHeading>
@@ -126,6 +139,13 @@ export default (
       <Image src={allDenoise} alt="all_denoise" />
     </Slide>
     <Slide align="center flex-start">
+        <Notes>
+          <h4> Slide Notes </h4>
+          <ol>
+            I checked for all edges with 3 overlaps and did find that dada2 was
+            usually the odd one out
+          </ol>
+        </Notes>
       <MyHeading>
         Denosing/clustering methods
       </MyHeading>
@@ -133,19 +153,24 @@ export default (
     </Slide>
     <Slide align="center flex-start">
       <MyHeading>
-        Denosing/clustering methods
-      </MyHeading>
-      <Image
-        src={circularNetwork}
-        alt="circular_network"
-        style={{ marginTop: '-80px' }}
-      />
-    </Slide>
-    <Slide align="center flex-start">
-      <MyHeading>
         Diversity
       </MyHeading>
       <Image src={diversity} alt="otu_diversity" />
+    </Slide>
+    <Slide align="center flex-start">
+      <MyHeading>
+        Rank abundance
+      </MyHeading>
+      <Image src={rankAbund} alt="rankAbund" />
+    </Slide>
+    <Slide align="center flex-start">
+      <MyHeading>
+        Abundance correlation on common taxa
+      </MyHeading>
+      <div style={{ display: 'flex' }} >
+        <Image src={denovoOpenrefCorr} alt="denovoOpenrefCorr" height="500" width="700" />
+        <Image src={dada2DenovoCorr} alt="dada2DenovoCorr" height="500" width="700" />
+      </div>
     </Slide>
     <Slide align="center flex-start">
       <MyHeading>

@@ -37,6 +37,7 @@ export default (
         </List>
       </List>
     </Slide>
+
     <Slide align="center flex-start">
       <Notes>
         <h4> Slide Notes </h4>
@@ -57,6 +58,7 @@ export default (
         </MyListItem>
       </List>
     </Slide>
+
     <Slide align="center flex-start">
       <Notes>
         <h4> Slide Notes </h4>
@@ -72,6 +74,66 @@ export default (
       </MyHeading>
       <Image src={mainFig} alt="main_fig" />
     </Slide>
+
+    <Slide align="center flex-start">
+      <Notes>
+        <h4> Slide Notes </h4>
+        <ol>
+          <li>
+            Figure 1: Variation due to different steps of the pipeline as a bar chart.
+            These can be coefficients from a linear regression in the space of the variance?
+          </li>
+          <li>
+            Figure 2: Diversity (between methods), Rank abundance, Pairwise correlations
+            after the denoising step
+          </li>
+          <li>
+            Figure 3: Sequence similarity, sequence mismatch in taxonomy, abundance
+            similarity at the taxonomy assignment step
+          </li>
+          <li>
+            Figure 4: Edge overlaps, Degree distribution and some other metrics after the network step
+          </li>
+          <li>
+            Figure 5: Comparing to a network manually curated from literature
+            (Vaginal microbiome might be the best system because it has the fewest number of species)
+          </li>
+          <li>
+            It is hard to separate the taxonomy assignment from the clustering in the older methods
+          </li>
+          <li>
+            I would like to come up with a distance metric for OTUs and for networks
+          </li>
+          <li>
+            Topologically based (unsupervised) dimensionality reduction approached. Eg: ISOmap
+            In general manifold learning
+          </li>
+        </ol>
+      </Notes>
+      <MyHeading>
+        Other Figures
+      </MyHeading>
+      <List>
+        <MyListItem>
+          Similarity, diversity, rank abundance and <b>pairwise correlations</b> after the
+          denoising/clustering
+        </MyListItem>
+        <MyListItem>
+          Diversity and correlations after assigning taxonomy at various taxonomy levels.
+          Also, correlation between sequence similarity and assigned taxa
+        </MyListItem>
+        <MyListItem>
+          Change is similarities after OTU filtering and normalization
+        </MyListItem>
+        <MyListItem>
+          Edge and node overlaps, similarity and degree distribution after network inference
+        </MyListItem>
+        <MyListItem>
+          A embedding of all the networks in a 2D plane
+        </MyListItem>
+      </List>
+    </Slide>
+
     <Slide align="center flex-start">
       <MyHeading>
         Distance Metrics
@@ -85,45 +147,6 @@ export default (
         </MyListItem>
         <MyListItem>
           Between associations in networks
-        </MyListItem>
-      </List>
-    </Slide>
-    <Slide align="center flex-start">
-      <Notes>
-        <h4> Slide Notes </h4>
-        <ol>
-          <li>
-          Figure 1: Variation due to different steps of the pipeline as a bar chart. These can be coefficients from a linear regression in the space of the variance?
-          </li>
-          <li>
-          Figure 2: Diversity, Rank abundance, Pairwise correlations after the denoising step
-          </li>
-          <li>
-          Figure 3: Sequence similarity, sequence mismatch in taxonomy, abundance similarity at the taxonomy assignment step
-          </li>
-          <li>
-          Figure 4: Edge overlaps, Degree distribution and some other metrics after the network step
-          </li>
-          <li>
-          Figure 5: Comparing to a network manually curated from literature (Vaginal microbiome might be the best system because it has the fewest number of species)
-          </li>
-        </ol>
-      </Notes>
-      <MyHeading>
-        Other Figures
-      </MyHeading>
-      <List>
-        <MyListItem>
-          Rank abundance comparison
-        </MyListItem>
-        <MyListItem>
-          Correlation between sequence similarity and abundance similarity
-        </MyListItem>
-        <MyListItem>
-          Sequence mismatch and taxonomy mismatch
-        </MyListItem>
-        <MyListItem>
-          A 2D embedding of the networks
         </MyListItem>
       </List>
     </Slide>

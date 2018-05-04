@@ -3,6 +3,7 @@ import React from 'react';
 import {
   Slide,
   List,
+  ListItem,
   SlideSet,
   Notes,
   Image,
@@ -14,6 +15,48 @@ const mainFig = require('../images/main_fig.png');
 
 export default (
   <SlideSet>
+    <Slide align="center flex-start">
+      <Notes>
+        <h4> Slide Notes </h4>
+        <ol>
+          <li> I would like your input on how best to describe the various levels of data </li>
+          <li> Might restrict the modeling to the database paper </li>
+        </ol>
+      </Notes>
+      <MyHeading> How do we find the best methods? </MyHeading>
+      <List>
+        <MyListItem> Is there a standard to compare against? </MyListItem>
+        <MyListItem> Can we make synthetic data? </MyListItem>
+        <MyListItem> What metrics can we use for comparisons? </MyListItem>
+        <List padding="0 50px">
+          <ListItem> Diversity </ListItem>
+          <ListItem> Abundances </ListItem>
+          <ListItem> Degree distributions</ListItem>
+          <ListItem> Motifs or connected components in the network </ListItem>
+          <ListItem> Metabolic models  </ListItem>
+        </List>
+      </List>
+    </Slide>
+    <Slide align="center flex-start">
+      <Notes>
+        <h4> Slide Notes </h4>
+        <ol>
+          <li>
+            An important point to keep in mind is that the whole point of this is
+            to get develop a pipeline for the database
+          </li>
+          <li> Ask people for suggestions </li>
+        </ol>
+      </Notes>
+      <MyHeading> What can we do then? </MyHeading>
+      <List>
+        <MyListItem> Identify parts of the pipeline that are most crucial </MyListItem>
+        <MyListItem> Show how data/errors propagate through the pipeline </MyListItem>
+        <MyListItem>
+          Identify downstream steps that make choices in upstream steps inconsequential
+        </MyListItem>
+      </List>
+    </Slide>
     <Slide align="center flex-start">
       <Notes>
         <h4> Slide Notes </h4>
@@ -50,7 +93,7 @@ export default (
         <h4> Slide Notes </h4>
         <ol>
           <li>
-          Figure 1: Variation due to different steps of the pipeline as a bar chart. These can be co-efficients from a linear regression in the space of the variance?
+          Figure 1: Variation due to different steps of the pipeline as a bar chart. These can be coefficients from a linear regression in the space of the variance?
           </li>
           <li>
           Figure 2: Diversity, Rank abundance, Pairwise correlations after the denoising step

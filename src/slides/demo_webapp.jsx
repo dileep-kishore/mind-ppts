@@ -3,6 +3,7 @@ import React from 'react';
 import {
   Slide,
   List,
+  ListItem,
   SlideSet,
   Notes,
 } from 'spectacle';
@@ -12,22 +13,11 @@ import { MyListItem, MyHeading } from './components/tags';
 export default (
   <SlideSet>
     <Slide align="center flex-start">
-      <Notes>
-        <h4> Slide Notes </h4>
-        <ol>
-          <li> I would like your input on how best to describe the various levels of data </li>
-          <li> Might restrict the modeling to the database paper </li>
-        </ol>
-      </Notes>
       <MyHeading>
-        Comparison metrics
+        Heading
       </MyHeading>
       <List>
-        <MyListItem> Diversity </MyListItem>
-        <MyListItem> Abundances </MyListItem>
-        <MyListItem> Degree distributions</MyListItem>
-        <MyListItem> Motifs or connected components in the network </MyListItem>
-        <MyListItem> Metabolic models  </MyListItem>
+        <MyListItem> ListItem </MyListItem>
       </List>
     </Slide>
     <Slide align="flex-start flex-start">
@@ -38,7 +28,6 @@ export default (
         height="1000"
         style={{ marginLeft: '-30px', paddingLeft: '-30px' }}
       />
-
     </Slide>
   </SlideSet>
 );

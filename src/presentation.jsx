@@ -63,8 +63,8 @@ function Presentation() {
       {Goals}
       {demoWebsite}
       {Methods}
-      {demoWebapp}
       {figureIdeas}
+      {demoWebapp}
       {Results}
       <Slide transition={['fade']} bgColor="secondary" textColor="primary">
         <BlockQuote>

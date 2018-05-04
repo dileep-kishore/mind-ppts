@@ -153,6 +153,7 @@ export default (
       <Notes>
         <h4> Slide Notes </h4>
         <ol>
+          <li> There are many different algorithms and tools for the same process </li>
           <li> By guidelines I mean suggest methods that they can use based on their data </li>
         </ol>
       </Notes>

@@ -1,2 +1,2 @@
-# Presentations for the Microbial INteraction Database Project
+# Presentations for the Microbial INteraction Database
 
